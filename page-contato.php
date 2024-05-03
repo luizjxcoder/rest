@@ -14,8 +14,8 @@
 
      <div class="grid-1-3 contato-item">
           <h2>Dados</h2>
-          <p>21 2422-9999</p>
-          <p>contato@rest.com</p>
+          <p><?php the_field('telefone'); ?></p>
+          <p><?php the_field('email'); ?></p>
           <p>facebook.com/rest/</p>
      </div>
      <div class="grid-1-3 contato-item">

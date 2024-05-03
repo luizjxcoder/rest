@@ -8,7 +8,7 @@
 
 
      <section class="container">
-          <h2 class="subtitulo"><php the_title() ;?></h2>
+          <h2 class="subtitulo"><?php the_title() ;?></h2>
 
           <div class="menu-item grid-8">
                <h2>Peixes</h2>
